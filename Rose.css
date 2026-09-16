@@ -7,7 +7,7 @@
 body {
     font-family: "DM Sans", sans-serif;
     color: #271617;
-    background: #f8f1ed;
+    background: #fffaf7;
 }
 
 .page {
@@ -24,7 +24,7 @@ body {
     min-height: 100vh;
     padding: 52px 64px 72px;
     background:
-        linear-gradient(180deg, rgba(250,242,238,0.98) 0%, rgba(250,242,238,0.9) 38%, rgba(250,242,238,0.34) 72%, rgba(250,242,238,0.2) 100%),
+        linear-gradient(180deg, rgba(255,250,247,0.98) 0%, rgba(255,250,247,0.9) 38%, rgba(255,250,247,0.34) 72%, rgba(255,250,247,0.2) 100%),
         url("bg.png") center bottom / cover no-repeat;
 }
 
@@ -56,7 +56,7 @@ body {
     font-size: 42px;
     font-style: italic;
     font-weight: 700;
-    color: #951f31;
+    color: #9d1e2c;
     line-height: 1;
     letter-spacing: 0;
     text-shadow: 1px 2px 0 rgba(127, 29, 45, 0.08);
@@ -64,7 +64,7 @@ body {
 
 .tagline {
     margin-top: 62px;
-    color: #a12636;
+    color: #9d1e2c;
     font-size: 13px;
     font-weight: 600;
     line-height: 1.5;
@@ -86,7 +86,7 @@ h1 {
 }
 
 h1 i {
-    color: #a12636;
+    color: #9d1e2c;
     font-style: italic;
 }
 
@@ -108,7 +108,7 @@ h1 i {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fffefd;
+    background: #fff;
 }
 
 .login {
@@ -118,7 +118,7 @@ h1 i {
 
 .login-kicker {
     text-align: center;
-    color: #a12636;
+    color: #9d1e2c;
     font-size: 10px;
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -135,7 +135,7 @@ h1 i {
 }
 
 .login h2 i {
-    color: #a12636;
+    color: #9d1e2c;
     font-style: italic;
 }
 
@@ -167,7 +167,7 @@ label {
     font-size: 11px;
     font-family: "DM Sans", sans-serif;
     color: #2b1719;
-    background: #fffefd;
+    background: #fff;
 }
 
 .input-wrap input::placeholder {
@@ -176,7 +176,7 @@ label {
 
 .input-wrap input:focus {
     outline: none;
-    border-color: #921f2e;
+    border-color: #9d1e2c;
 }
 
 a {
@@ -207,23 +207,23 @@ button {
 
 .login-btn {
     border: none;
-    background: #a51f32;
+    background: #9d1e2c;
     color: white;
     margin-bottom: 12px;
 }
 
 .login-btn:hover {
-    background: #711925;
+    background: #7d1723;
 }
 
 .guest-btn {
-    background: #fffefd;
-    color: #a51f32;
-    border: 1px solid #a51f32;
+    background: #fff;
+    color: #9d1e2c;
+    border: 1px solid #9d1e2c;
 }
 
 .guest-btn:hover {
-    background: #fbeeee;
+    background: #fff1ef;
 }
 
 /* ============ RESPONSIVE ============ */

@@ -5,8 +5,8 @@
 }
 
 body {
-  background: #fcf8f6;
-  color: #2d1c1e;
+  background: #fffaf7;
+  color: #351719;
   font-family: "DM Sans", sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -25,9 +25,9 @@ header.nav {
   align-items: center;
   justify-content: space-between;
   padding: 17px 48px;
-  border-bottom: 1px solid rgba(229, 217, 213, .8);
-  background: rgba(255, 254, 252, .97);
-  box-shadow: 0 2px 10px rgba(72, 30, 35, .06);
+  border-bottom: 0;
+  background: #fffaf7;
+  box-shadow: none;
 }
 
 .logo {
@@ -43,7 +43,7 @@ header.nav {
 }
 
 .logo-text {
-  color: #681b2b;
+  color: #9d1e2c;
   font-family: "Playfair Display", serif;
   font-size: 26px;
   font-weight: 600;
@@ -52,7 +52,7 @@ header.nav {
 nav.links {
   display: flex;
   gap: 34px;
-  color: #2d1c1e;
+  color: #351719;
   font-size: 12px;
 }
 
@@ -62,7 +62,7 @@ nav.links a {
 }
 
 nav.links a.active {
-  color: #982238;
+  color: #9d1e2c;
   font-weight: 600;
 }
 
@@ -72,14 +72,14 @@ nav.links a.active::after {
   bottom: 0;
   left: 0;
   height: 1px;
-  background: #982238;
+  background: #9d1e2c;
   content: "";
 }
 
 .get-started {
   padding: 11px 20px;
   border-radius: 3px;
-  background: #982238;
+  background: #9d1e2c;
   box-shadow: 0 5px 12px rgba(152, 34, 56, .18);
   color: #fff;
   font-size: 11px;
@@ -103,12 +103,12 @@ nav.links a.active::after {
   padding: 24px 17px 20px;
   border: 1px solid #ead9d4;
   border-radius: 8px;
-  background: #fbf1ee;
+  background: #fff;
 }
 
 .filters-title {
   margin-bottom: 22px;
-  color: #681b2b;
+  color: #9d1e2c;
   font-family: "DM Sans", sans-serif;
   font-size: 15px;
   font-weight: 700;
@@ -121,7 +121,7 @@ nav.links a.active::after {
   padding: 16px;
   border: 1px solid #eadbd7;
   border-radius: 8px;
-  background: #fff7f4;
+  background: #fff;
   box-shadow: 0 7px 22px rgba(72, 30, 35, .055);
 }
 
@@ -146,21 +146,21 @@ nav.links a.active::after {
   padding: 7px 11px;
   border: 1px solid #e5d9d5;
   border-radius: 14px;
-  background: #fbf1ee;
-  color: #2d1c1e;
+  background: #fffaf7;
+  color: #351719;
   font-size: 11px;
 }
 
 .pill.active {
-  border-color: #982238;
-  background: #982238;
+  border-color: #9d1e2c;
+  background: #9d1e2c;
   box-shadow: 0 4px 10px rgba(104, 27, 43, .22);
   color: #fff;
 }
 
 .sub-heading {
   margin: 15px 0 9px;
-  color: #2d1c1e;
+  color: #351719;
   font-size: 12px;
   font-weight: 600;
 }
@@ -169,7 +169,7 @@ main {
   padding: 30px 32px 38px;
   border: 1px solid #eee2de;
   border-radius: 8px;
-  background: #fffaf8;
+  background: #fff;
   box-shadow: 0 10px 26px rgba(72, 30, 35, .06);
 }
 
@@ -185,7 +185,7 @@ main {
   align-items: center;
   border: 1px solid #e5d9d5;
   border-radius: 5px;
-  background: #fff7f4;
+  background: #fff;
   box-shadow: 0 7px 22px rgba(72, 30, 35, .055);
 }
 
@@ -200,7 +200,7 @@ main {
   border: 0;
   outline: 0;
   background: transparent;
-  color: #2d1c1e;
+  color: #351719;
   font: inherit;
   font-size: 13px;
 }
@@ -220,7 +220,7 @@ main {
   border: 0;
   outline: 0;
   background: transparent;
-  color: #681b2b;
+  color: #9d1e2c;
   font: inherit;
   font-weight: 600;
 }
@@ -233,7 +233,7 @@ main {
 }
 
 .section-heading h1 {
-  color: #681b2b;
+  color: #9d1e2c;
   font-family: "Playfair Display", Georgia, serif;
   font-size: 32px;
   font-style: italic;
@@ -258,14 +258,14 @@ main {
   overflow: hidden;
   border: 1px solid #e5d9d5;
   border-radius: 8px;
-  background: #fff7f4;
+  background: #fff;
   box-shadow: 0 7px 22px rgba(72, 30, 35, .055);
 }
 
 .card::before {
   display: block;
   height: 3px;
-  background: #982238;
+  background: #9d1e2c;
   content: "";
   opacity: .75;
 }
@@ -321,7 +321,7 @@ main {
   border-radius: 3px;
   background: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .08);
-  color: #982238;
+  color: #9d1e2c;
   font-size: 10px;
   font-weight: 600;
 }
@@ -335,7 +335,7 @@ main {
 }
 
 .p-name {
-  color: #2d1c1e;
+  color: #351719;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.32;
@@ -354,8 +354,8 @@ main {
   align-items: center;
   padding: 6px 8px;
   border-radius: 5px;
-  background: #f3e2df;
-  color: #681b2b;
+  background: #f8e8e2;
+  color: #9d1e2c;
   font-size: 10px;
   font-weight: 600;
 }
@@ -370,7 +370,7 @@ main {
 }
 
 .p-price {
-  color: #681b2b;
+  color: #9d1e2c;
   font-size: 14px;
   font-weight: 700;
 }
@@ -380,7 +380,7 @@ main {
   align-items: center;
   gap: 42px;
   padding: 22px max(42px, calc((100vw - 1280px) / 2 + 42px));
-  background: rgba(165, 31, 50, .94);
+  background: #9d1e2c;
   color: #fff8f5;
 }
 
